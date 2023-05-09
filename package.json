@@ -1,0 +1,16 @@
+{
+  "name": "lambda-docker-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sparticuz/chromium": "109.0.0",
+    "puppeteer": "19.4.0",
+    "puppeteer-core": "19.4.0"
+  }
+}
