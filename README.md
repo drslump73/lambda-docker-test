@@ -12,8 +12,8 @@ aws ecr --profile fj-dev get-login-password | docker login --username AWS --pass
 
 docker build -t drslump73/dockertest1 .
 
-docker tag drslump73/dockertest1 613653020328.dkr.ecr.ap-northeast-1.amazonaws.com/drslump73/dockertest1:latest
-docker tag drslump73/dockertest1 613653020328.dkr.ecr.ap-northeast-1.amazonaws.com/drslump73/dockertest1:202212131534
+docker tag drslump73/dockertest1 123456789012.dkr.ecr.ap-northeast-1.amazonaws.com/drslump73/dockertest1:latest
+docker tag drslump73/dockertest1 123456789012.dkr.ecr.ap-northeast-1.amazonaws.com/drslump73/dockertest1:202212131534
 docker push 123456789012.dkr.ecr.ap-northeast-1.amazonaws.com/drslump73/dockertest1:latest
 docker push 123456789012.dkr.ecr.ap-northeast-1.amazonaws.com/drslump73/dockertest1:202212131534
 ```
